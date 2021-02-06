@@ -32,7 +32,6 @@ followed by:
 %mkdir data
 %cd ./data
 !wget https://storage.googleapis.com/nasbench/nasbench_only108.tfrecord
-import os
 os.kill(os.getpid(), 9)
 ```
 
